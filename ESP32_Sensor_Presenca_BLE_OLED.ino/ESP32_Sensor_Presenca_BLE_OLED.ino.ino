@@ -41,12 +41,9 @@ int umidadeAnterior = 0;
 int scanTime = 5;  //In seconds
 
 // --- PARÂMETROS DOS DISPOSITIVOS BLE BUSCADO ---
-//Relogio RS4 - "e0:08:71:14:54:3b" 
-//ESP32-BLE   - "08:b6:1f:be:58:12" 
-//TV Sala     - "00:7c:2d:dc:5d:58" 
 int sinalRequerido = -65;
 String nomeDispositivoBuscado = "Relogio RS4";
-String macDispositivoBuscado = "e0:08:71:14:54:3b";
+String macDispositivoBuscado = "**:**:**:**:**:**";
 String estadoDaLuz = "";
 String estadoDaLuzAnterior = "";
 int dispositivoPresente = 0;
